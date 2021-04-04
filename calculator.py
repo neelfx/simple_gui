@@ -106,7 +106,7 @@ button_equal.grid(row=6, column=1, columnspan=2)
 button_substract.grid(row=4, column=1)
 button_multiply.grid(row=4, column=2)
 button_divide.grid(row=6, column=0)
- 
+# the above need to be created before gui can load using the Event Loop 
 # Create Event Loop
 root.mainloop()
 
