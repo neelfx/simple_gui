@@ -45,9 +45,9 @@ def back():
     status = Label(root, text= "Image " + str(img_pos+1) + " of "+str(len(image_list)), bd=1, relief=SUNKEN, anchor=E)
     status.grid(row=2, column=0, columnspan=3, sticky=W+E)
 
-button_back = Button(root, text="<<", command=back)
-button_quit = Button(root, text="Exit Program", command=root.quit)
-button_forward = Button(root, text=">>", command=forward)
+button_back = Button(root, text="<-", command=back)
+button_quit = Button(root, text="Close Program", command=root.quit)
+button_forward = Button(root, text="->", command=forward)
 
 button_back.grid(row=1, column=0)
 button_quit.grid(row=1, column=1)
